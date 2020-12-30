@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA7D35E1259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.15.00.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35DE259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.15.00.png */; };
+		EA7D35E2259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.55.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35DF259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.55.png */; };
+		EA7D35E3259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.33.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7D35E0259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.33.png */; };
 		EAC85986257FC3EE00DE5EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC85985257FC3EE00DE5EBD /* AppDelegate.swift */; };
 		EAC85988257FC3EE00DE5EBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC85987257FC3EE00DE5EBD /* SceneDelegate.swift */; };
 		EAC8598A257FC3EE00DE5EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC85989257FC3EE00DE5EBD /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA7D35DE259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.15.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-31 в 01.15.00.png"; sourceTree = "<group>"; };
+		EA7D35DF259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-31 в 01.14.55.png"; sourceTree = "<group>"; };
+		EA7D35E0259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-12-31 в 01.14.33.png"; sourceTree = "<group>"; };
 		EAC85982257FC3EE00DE5EBD /* PassDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC85985257FC3EE00DE5EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC85987257FC3EE00DE5EBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA7D35DC259D258D005E3EBF /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EA7D35E0259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.33.png */,
+				EA7D35DF259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.55.png */,
+				EA7D35DE259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.15.00.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		EAC85979257FC3EE00DE5EBD = {
 			isa = PBXGroup;
 			children = (
+				EA7D35DC259D258D005E3EBF /* Screenshots */,
 				EAC85984257FC3EE00DE5EBD /* PassDataProject */,
 				EAC85983257FC3EE00DE5EBD /* Products */,
 			);
@@ -127,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7D35E2259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.55.png in Resources */,
 				EAC85992257FC3F100DE5EBD /* LaunchScreen.storyboard in Resources */,
 				EAC8598F257FC3F100DE5EBD /* Assets.xcassets in Resources */,
+				EA7D35E1259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.15.00.png in Resources */,
 				EAC8598D257FC3EE00DE5EBD /* Main.storyboard in Resources */,
+				EA7D35E3259D2641005E3EBF /* Снимок экрана 2020-12-31 в 01.14.33.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
